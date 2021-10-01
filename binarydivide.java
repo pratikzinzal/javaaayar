@@ -23,7 +23,13 @@ public class binarydivide {
 
         binarydivide bs = new binarydivide();
         int N = 1000;
-        int[] arr1 = { 5, 4, 3, 2, 1 };
+        int[] arr1 = int[N];
+        for(int i = 0; i<N ; i++){
+        
+            arr1[i] = i;
+        }
+        
+        
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your element ");
